@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+}
+body{
+    background-color: rgb(232, 236, 240);
+    background:linear-gradient(90deg, rgba(0,0,0,0.5886729691876751) 0%, rgba(0,0,0,0.6222864145658263) 100%), url(/image/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+form{
+    margin:3rem 15rem;
+    background-color: rgb(219, 222, 225);
+}
+h2{
+    padding-top: 20px;
+}
+hr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 30px;
+    border-color: black;
+}
+.title{
+    padding: 10px 5px 0;
+    margin: 0 30px;
+}
+
+.main-div{
+    margin: 10px 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: rgb(219, 222, 225);
+}
+div{
+    padding: 3px 0;
+}
+input[type=text],[type=password],[type=email]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 15px;
+}
+input:hover{
+    background-color: rgb(240, 240, 245);
+    transition: .5s;
+}
+button{
+    width: 40%;
+    padding: 6px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(37, 141, 59);
+}
+button:hover{
+    background-color: rgb(103, 186, 117);
+    transition: .5s;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(65, 136, 79);
+}
